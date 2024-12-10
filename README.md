@@ -27,12 +27,8 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 
 ## Run KVFKT
 
-1. Construct the knowledge graph: use pyKT preprocessed files, for example, `Algebra2005_head_10.csv`, to construct `entities.dict` (entity dictionaries), `relations.dict` (relationship dictionaries), `triples.txt` (triples required for knowledge graphs) and `Q.txt` (Q-matrix). Place the three generated files in folder `KG4Ex/data/algebra2005`.
+`python run.py --do_train --cuda --data_path ../data/algebra2005 --model TransE -b 1024 -d 1000 -g 12.0 -a 1.0 -lr 0.001 -adv -save models/algebra2005/TransE_adv`.
 
-2. Embedding learning: `python run.py --do_train --cuda --data_path ../data/algebra2005 --model TransE -b 1024 -d 1000 -g 12.0 -a 1.0 -lr 0.001 -adv -save models/algebra2005/TransE_adv`.
+## The interpretability of KVFKT
 
-3. Recommendation and evaluation: the embedding vectors of entities and relations are saved in `KG4Ex/codes/models/algebra2005/TransE_adv`. Run `test_TransE.py` to obtain corresponding indicator results.
-
-
-## The interpretability of KG4Ex
-To validate the interpretability of KG4Ex and the rationality of exercise recommendations, we conducted real interviews with 250 real students. The student interviews were conducted through questionnaire surveys. We are making the questionnaire content public here `questionnaire.txt`.
+<img src="Interpretability.pdf" alt="drawing" width = "2000"> 
