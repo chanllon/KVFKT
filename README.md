@@ -24,10 +24,8 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 
 - Preprocess the dataset using [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) to obtain the student's mastery level of knowledge concepts **(MLKC)**, the probability of knowledge concepts appearing in the next exercise **(PKC)**, and the forgetting rate of knowledge concepts **(FRKC)**.
 
-- We provide an example of a CSV file obtained after [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) processing using the [Algebra 2005](https://pslcdatashop.web.cmu.edu/KDDCup/) dataset (top 10 rows), located in `KG4Ex/pyKT_example/Algebra2005_head_10.csv`.
 
-
-## Run KG4Ex
+## Run KVFKT
 
 1. Construct the knowledge graph: use pyKT preprocessed files, for example, `Algebra2005_head_10.csv`, to construct `entities.dict` (entity dictionaries), `relations.dict` (relationship dictionaries), `triples.txt` (triples required for knowledge graphs) and `Q.txt` (Q-matrix). Place the three generated files in folder `KG4Ex/data/algebra2005`.
 
