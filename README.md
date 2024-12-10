@@ -27,8 +27,12 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 
 ## Run KVFKT
 
-`python run.py --do_train --cuda --data_path ../data/algebra2005 --model TransE -b 1024 -d 1000 -g 12.0 -a 1.0 -lr 0.001 -adv -save models/algebra2005/TransE_adv`.
+`python main.py --dataset ***  --memory_size *** --value_memory_state_dim ***  --key_memory_state_dim  *** `.
+
+For example
+
+`python main.py --dataset NeurIPS  --memory_size 100 --value_memory_state_dim 200  --key_memory_state_dim  200 `.
 
 ## The interpretability of KVFKT
-
+we demonstrate that KVFKT can capture realistic student knowledge states across multiple concepts during the learning process. To achieve this, we randomly select a student from the ASSIST2012 dataset and then evaluate the transition of the student's ability level, guess coefficient, and the probability of correctly answering the next KC as they progress in their learning by visualizing the first 30 attempts of that student.
 <img src="Interpretability.pdf" alt="drawing" width = "2000"> 
