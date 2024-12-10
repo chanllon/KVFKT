@@ -14,11 +14,13 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 ## Datasets
 - Download the three public datasets we use in the paper at:
 
-  [ASSISTments 2009](https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010)
+  [ASSISTments 2012](https://sites.google.com/site/assistmentsdata/datasets/2012-13-school-data-with-affect)
 
-  [Algebra 2005](https://pslcdatashop.web.cmu.edu/KDDCup/)
+  [EdNet](https://github.com/riiid/ednet)
 
-  [Statics 2011](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=507)
+  [NeurIPS](https://eedi.com/projects/neurips-education-challenge)
+  
+  [FSAI-F1toF3](https://www.4littletrees.com/)
 
 - Preprocess the dataset using [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) to obtain the student's mastery level of knowledge concepts **(MLKC)**, the probability of knowledge concepts appearing in the next exercise **(PKC)**, and the forgetting rate of knowledge concepts **(FRKC)**.
 
