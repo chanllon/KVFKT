@@ -1,5 +1,7 @@
 # KVFKT: A New Horizon in Knowledge Tracing with Attention-Based Embedding and Forgetting Curve Integration
 
+<img src="KVFKTModelStructure.png" alt="drawing" width = "2000"> 
+
 This is the official implementation for our paper **KVFKT: A New Horizon in Knowledge Tracing with Attention-Based Embedding and Forgetting Curve Integration**, accepted by **COLING'25**.
 
 
