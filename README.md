@@ -36,3 +36,17 @@ For example
 ## The interpretability of KVFKT
 we demonstrate that KVFKT can capture realistic student knowledge states across multiple concepts during the learning process. To achieve this, we randomly select a student from the ASSIST2012 dataset and then evaluate the transition of the student's ability level, guess coefficient, and the probability of correctly answering the next KC as they progress in their learning by visualizing the first 30 attempts of that student.
 <img src="Interpretability.pdf" alt="drawing" width = "2000"> 
+
+# Citation
+
+If you find our work helpful, please kindly cite our research paper:
+
+@inproceedings{guan2025kvfkt,
+  title={KVFKT: A New Horizon in Knowledge Tracing with Attention-Based Embedding and Forgetting Curve Integration},
+  author={Guan, Quanlong and Duan, Xiuliang and Bian, Kaiquan and Chen, Guanliang and Huang, Jianbo and Gong, Zhiguo and Fang, Liangda},
+  booktitle={Proceedings of the 31st International Conference on Computational Linguistics},
+  pages={4399--4409},
+  year={2025}
+}
+
+
