@@ -40,6 +40,7 @@ we demonstrate that KVFKT can capture realistic student knowledge states across 
 # Citation
 
 If you find our work helpful, please kindly cite our research paper:
+
 [1]Quanlong Guan, Xiuliang Duan*, Kaiquan Bian, Guanliang Chen, Jianbo Huang*, Zhiguo Gong, Liangda Fang. KVFKT: A New Horizon in Knowledge Tracing with Attention-Based Embedding and Forgetting Curve Integration.Proceedings of the 31st International Conference on Computational Linguistics (COLING).2025
 
 @inproceedings{guan2025kvfkt,
